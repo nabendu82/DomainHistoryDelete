@@ -3,15 +3,16 @@
     "scripts": ["background.js"]
   },
   "description": "Gives a popup to list and delete history on a domain.",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/history-deleter",
+  "homepage_url": "https://github.com/nabendu82/DomainHistoryDelete",
   "page_action": {
-    "default_title": "History deleter",
+    "default_title": "History delete",
     "default_popup": "history.html",
-    "default_icon": "icons/history.svg"
+    "default_icon": "icons/logo_64.png"
   },
   "icons": {
-    "48": "icons/history.svg",
-    "96": "icons/history.svg"
+    "32": "icons/logo_32.png",
+    "48": "icons/logo_48.png",
+    "64": "icons/logo_64.png"
   },
   "permissions": [
     "activeTab",
@@ -19,6 +20,6 @@
     "tabs"
   ],
   "manifest_version": 2,
-  "name": "History Deleter",
+  "name": "Domain History Delete",
   "version": "1.0"
 }
